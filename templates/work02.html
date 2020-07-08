@@ -78,20 +78,6 @@
       </div>
 
 
-
-      <div class="col-md-8 col-md-offset-2 section-container-spacer">
-        <div class="row">
-          <div class="col-xs-12 col-md-6">
-            <img src="./static/assets/images/work001-02.jpg" class="img-responsive" alt="">
-            <p>Menphis skyline</p>
-          </div>
-          <div class="col-xs-12 col-md-6">
-            <img src="./static/assets/images/work001-03.jpg" class="img-responsive" alt="">
-            <p>Menphis skyline</p>
-          </div>
-        </div>
-      </div>
-
       <div class="col-xs-12">
         <p>This is what the program does step-by-step:<br> - Retrieves data from the first 2 pages of the the hacker news URL using the requests library get method.<br> - Parses the html with Beautiful Soup.<br> - Creates lists of the links and the subtext (that contains the vote count) for each article with the appropriate CSS selectors using the select method.<br> - Enumerates the links (to generate an index) and loops through them, grabbing the title of the article and the link to it with the getText and get methods.<br> - Finds stories with votes using the index for each link, converts the vote count to an integer, and for articles that have 100 or more votes, adds the title, link and votes as a dictionary to a new list of hacker news articles to read.<br> - Sorts the stories in decending order by the votes dictionary key using a lambda function.<br> - Uses the pretty print module to print the article list in more readable format.</p>
       </div>
